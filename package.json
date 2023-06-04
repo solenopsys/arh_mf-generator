@@ -2,7 +2,9 @@
   "name": "@solenopsys/fl-authorization",
   "version": "0.1.0",
   "scripts": {
-    "test": "node index.js",
-    "build": "etsc -p tsconfig.lib.json"
+    "build": "ng-packagr -p ng-package.json -c ../../../../tsconfig.base.json"
+  },
+  "peerDependencies": {
+    "json5": "^2.2.3"
   }
 }
