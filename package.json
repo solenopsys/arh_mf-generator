@@ -1,5 +1,5 @@
 {
-  "name": "@solenopsys/fl-authorization",
+  "name": "@solenopsys/mf-generator",
   "version": "0.1.0",
   "scripts": {
     "build": "ng-packagr -p xs-package.json -c ../../../../tsconfig.packages.json"
