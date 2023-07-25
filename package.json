@@ -1,10 +1,9 @@
 {
   "name": "@solenopsys/mf-generator",
   "version": "0.1.0",
-  "scripts": {
-    "build": "ng-packagr -p xs-package.json -c ../../../../tsconfig.packages.json"
-  },
-  "peerDependencies": {
+  "dependencies": {
+    "three": "^0.153.0",
+    "@types/three": "^0.153.0",
     "json5": "^2.2.3"
   }
 }
